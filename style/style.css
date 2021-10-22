@@ -1,13 +1,13 @@
 @charset "UTF-8";
 
 @font-face {
-    font-family: 'Bebas01';
-    src: url('/fontes01/bebas.ttf');
+    font-family: 'Bebas01', cursive;
+    src: url('/fontes01/bebas.ttf') format('truetype');
 }
 
 @font-face {
-    font-family: 'Android';
-    src: url('/fontes01/idroid.otf');
+    font-family: 'Android', cursive;
+    src: url('/fontes01/idroid.otf') format('opentype');
 }
 
 :root {
@@ -21,8 +21,8 @@
 
 
     --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
-    --fonte-destaque: 'Bebas01';
-    --fonte-android: 'Android';
+    --fonte-destaque: 'Bebas01', cursive;
+    --fonte-android: 'Android', cursive;
 }
 
 * { 
